@@ -14,3 +14,14 @@ body {
     width: 100px;
     transform: rotate(-45deg) scale(1);
 }
+
+.pulsante::after{
+    background: red;
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
